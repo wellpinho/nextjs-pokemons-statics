@@ -2,9 +2,16 @@
   width: 100%;
   padding: 0 20px;
   background: var(--color-purple);
+  color: #fff;
 
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
 }
