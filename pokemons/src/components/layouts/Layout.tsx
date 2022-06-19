@@ -1,5 +1,8 @@
 import Head from "next/head";
 import { Button } from "@nextui-org/react";
+import { Navbar } from "../ui/navbar";
+
+import styles from "./styles.module.scss";
 
 interface IChildren {
   children: React.ReactNode;
@@ -23,12 +26,9 @@ export function Layout({ children, title }: IChildren) {
         />
       </Head>
 
-      {/* navbar */}
+      <Navbar />
 
-      <main>
-        {children}
-        <Button color="primary">{title}</Button>
-      </main>
+      <main className={styles.main}>{children}</main>
     </>
   );
 }

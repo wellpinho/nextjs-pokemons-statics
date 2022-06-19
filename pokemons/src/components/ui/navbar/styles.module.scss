@@ -1,0 +1,10 @@
+.navbar {
+  width: 100%;
+  padding: 0 20px;
+  background: var(--color-purple);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
