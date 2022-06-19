@@ -4,7 +4,7 @@
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
-  color: #287214;
+  color: #9eca92;
   font-weight: bold;
 }
 
@@ -14,4 +14,10 @@
   padding: 2rem 0;
   letter-spacing: 0.7rem;
   font-weight: 700;
+}
+
+.card {
+  background-color: rgba(31, 31, 31, 0.877);
+  padding: 1rem;
+  border-radius: 0.3rem;
 }

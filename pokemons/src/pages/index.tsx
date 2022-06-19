@@ -21,10 +21,9 @@ const Home: NextPage<IProps> = ({ pokemons }) => {
             return (
               <div className="mb-4 col" key={item.id}>
                 <div className="card-group">
-                  <div className="card">
+                  <div className={styles.card}>
                     <Image
                       src={item.img}
-                      className="img-thumbnail"
                       alt={item.name}
                       width="150"
                       height="150"
